@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 2rem 2rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, 0.925);
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(255, 232, 28) !important;
+}
+
+#navbarSupportedContent a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom:2px solid rgb(102, 235, 69);
+}
+
+#navbarSupportedContent button{
+    background:rgb(255, 232, 28);
+    width: 5rem;
+    border-radius: 15px;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Home */
+
+#Home{
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.3)), url(img1.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    flex-direction: column;
+}
+
+#Home h1{
+    font-size: 100px;
+    color: rgb(247, 244, 245);
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #ccc,
+                 0px 6px 0px #ccc,
+                 0px 7px 0px #ccc;
+}
+
+#Home p{
+    font-size: 18px;
+    color:white ;
+}
+#Home .input-group{
+    width: 40%;
+    height: 45px;
+    ;
+}
+
+.signin{
+    background : rgb(255, 232, 28)!important ;
+    color: white;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.2);
+}
+
+/* about */
+
+#About img{
+    height: 100%;
+}
+
+#About{
+    background: linear-gradient(white);
+}
+
+#About h1{
+    margin-top: 3px;
+    font-weight: 800;
+    font-size: 50px;
+    color: rgba(214, 162, 19, 0.884);
+    line-height: 2.5;
+
+}
+
+#About p{
+    line-height: 1.8;
+    color:black;
+    text-align: justify;
+}
+/* product */
+
+#Product{
+    background: white;
+}
+#Product h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    color: rgba(8, 6, 0, 0.884);
+}
+
+#Product img{
+    width: 200px;
+    height: 200px;
+
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(29, 0, 0, 0.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(29, 0, 0, 0.3),
+                4px 4px 10px white;
+    transition: 0.2s;
+}
+
+/* contact */
+#Contact img{
+    height: 100%;
+
+}
+
+.box{
+    width: 80% !important;
+    background:white;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#Contact input{
+    margin: 10px 0px;
+}
+
+#Contact textarea{
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+
+#Contact h1{
+    color: rgba(0, 0, 0, 0.884);
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background: black;
+    text-align: center;
+    margin-top: -30px;
+    color: white;
+    padding: 3px;
+}
+
